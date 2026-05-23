@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0B0F19;
+}
+
+.counter-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  background-color: #151B2C;
+  padding: 5rem 10rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.counter-app h1 {
+  color: orange;
+  font-size: 2.5rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.increment-btn {
+  background-color: green;
+}
+
+.decrement-btn {
+  background-color: red;
+}
+
+.reset-btn {
+  background-color: black;
+}
