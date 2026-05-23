@@ -21,14 +21,16 @@
   align-items: center;
   gap: 5px;
   background-color: #151B2C;
-  padding: 5rem 10rem;
-  border-radius: 8px;
+  padding: 3rem 4rem;
+  border-radius: 18px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255,255,255,0.06);
 }
 
 .counter-app h1 {
   color: orange;
-  font-size: 2.5rem;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 .btns {
@@ -45,16 +47,23 @@
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
+  transition: all 0.2s ease;
+  width: 120px;
+}
+
+.btn:hover {  
+  transform: translateY(-2px);  
+  opacity: 0.9;
 }
 
 .increment-btn {
-  background-color: green;
+  background-color: #22c55e;
 }
 
 .decrement-btn {
-  background-color: red;
+  background-color: #ef4444;
 }
 
 .reset-btn {
-  background-color: black;
+  background-color: #334155;
 }
