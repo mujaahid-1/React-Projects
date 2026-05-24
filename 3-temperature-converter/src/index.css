@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background-color: #111827;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+  background-color: #1f2937;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.temperature input {
+  width: 250px;
+  max-width: 90vw;
+  padding: 5px 15px;
+  font-size: 18px;
+  outline: none;
+  background-color: #111827;
+  border: 1px solid #374151;
+  border-radius: 5px;
+  color: #f9fafb;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.temperature input::placeholder {
+  color: #9ca3af;
+}
+
+.temperature input:focus {
+  border-color: #eb3c25;
+  box-shadow: 0 0 0 4px rgba(235, 37, 37, 0.15);
+}
+
+.temperature p {
+  font-size: 20px;
+  color: #f97316;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.temperature button {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #eb3c25;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.temperature button:hover {
+  cursor: pointer;
+  background-color: #d9341f;
+  transform: translateY(-2px);
+}
